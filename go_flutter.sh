@@ -16,10 +16,6 @@ if [ "$1" = "install_linux" ]; then
     sudo apt-get install libgl1-mesa-dev
     sudo apt-get install xorg-dev
 
-    # video_player support
-    # https://linuxconfig.org/ubuntu-20-04-ffmpeg-installation
-    sudo apt install ffmpeg
-
     echo $(hover version)
     echo $(go version)
 
