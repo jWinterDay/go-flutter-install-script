@@ -1,7 +1,5 @@
 #!/bin/bash
 
-cd ..
-
 if [ "$1" = "run" ]; then
     hover run
 
