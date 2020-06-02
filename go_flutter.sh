@@ -38,4 +38,5 @@ fi
 echo "./start.sh COMMAND
         run             - run app
         install_linux   - install go and hover on ubuntu
+        install_mac     - install go and hover on macos
 "
